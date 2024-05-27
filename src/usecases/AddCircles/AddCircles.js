@@ -14,9 +14,9 @@ const AddCircles = (props) => {
 
     if (grayColorCircles.includes(index)) {
       setGrayColorCircles(grayColorCircles.filter((x) => x !== index));
-      document.getElementById("circle_" + index).style.backgroundColor = "grey";
-    } else {
       document.getElementById("circle_" + index).style.backgroundColor = "red";
+    } else {
+      document.getElementById("circle_" + index).style.backgroundColor = "grey";
     }
   };
 
