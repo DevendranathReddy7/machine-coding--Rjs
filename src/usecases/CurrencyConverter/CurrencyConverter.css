@@ -1,0 +1,131 @@
+.wrapper{
+    background-color: rgb(52, 52, 52);
+    margin: 10% 20% 1% 20%;
+    padding: 2% 2% 5% 2%;
+    border-radius: 3px;
+    box-shadow: black;
+}
+.drpdwnDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
+
+.label{
+    color: white;
+    padding-bottom: 5px;
+}
+.heading{
+    color: white;
+}
+.dropdown__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  }
+.swap{
+    height: 30px;
+    font-size: 30px;
+}
+.dropdown{
+    height: 40px;
+    width: 15rem;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.input{
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.convert{
+    border-style: none;
+    float: right;
+    background-color: rgb(24, 182, 235);
+    height: 40px;
+    width: 100px;
+    margin-top: 1%;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+
+}
+
+/* .dropdown__container select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    padding-right: 25px; 
+  }
+
+  .dropdown__container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown__container::before {
+    content: "💛"; 
+    font-family: FontAwesome; 
+    position: absolute;
+    right: 8px; 
+    top: 45%;
+    transform: translateY(-50%);
+  } */
+
+ 
+.disabled{
+    border-style: none;
+    float: right;
+    background-color: rgb(178, 180, 180);
+    height: 40px;
+    width: 100px;
+    margin-top: 1%;
+    border-radius: 3px;
+    color: rgb(8, 8, 8);
+    font-size: large;
+}
+
+.curencyPara{
+    color: rgb(24, 182, 235);
+}
+.convertDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.errorPara{
+    color: red;
+    margin-top: 3px;
+}
+
+.favButton{
+    background-color: transparent;
+    border-style: none;
+    top: -2rem;
+    position: relative;
+    bottom: 0px;
+    right: 0;
+    left: 12rem;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fav__option{
+    background-color: rgb(216, 249, 131);
+}
+.option{
+    background-color: rgb(250, 180, 180);
+}

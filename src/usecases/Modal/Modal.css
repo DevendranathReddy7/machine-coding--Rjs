@@ -1,0 +1,23 @@
+.modal__container{
+    background-color: rgb(192, 162, 220);
+    position: fixed;
+    z-index: 999;
+    left: 23%;
+    top: 10%;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 3px;  
+}
+
+.modal__container >button{
+    float: right;
+    margin: 1.5%;
+}
+
+.modalPara{
+    font-size: xx-large;
+    font-size: 140px;
+    margin-top: -9%;
+}
+

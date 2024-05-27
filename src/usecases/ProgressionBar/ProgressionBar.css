@@ -1,0 +1,78 @@
+.steps__wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.steps__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.steps__number{
+    border-radius: 50px;
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
+.steps__name{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.next{
+    margin: 5% 45% 2% 45%;
+}
+
+.steps__number__progress{
+    background-color: blue;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
+.steps__number__completed{
+    background-color: rgb(56, 211, 56);
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
+.component{
+    margin: 5% 0% 2% 40%;
+}
+
+.progressBar{
+    position: absolute;
+    top:12%;
+    width: 76%;
+    left: 0;
+    height: 4px;
+    background-color: aqua;
+    margin-left: 13%;
+}
+
+.progress{
+    height: 100%;
+    background-color: rgb(56, 211, 56);
+    transition: 0.2s ease;
+}
