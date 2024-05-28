@@ -14,13 +14,14 @@ const AddCircles = (props) => {
 
     if (grayColorCircles.includes(index)) {
       setGrayColorCircles(grayColorCircles.filter((x) => x !== index));
-      document.getElementById("circle_" + index).style.backgroundColor = "red";
+      document.getElementById("circle_" + index).style.backgroundColor =
+        "white";
     } else {
       document.getElementById("circle_" + index).style.backgroundColor = "grey";
     }
   };
 
-  const getCircels = (index) => {
+  const getCircels = (index, val) => {
     return (
       <button
         id={`circle_${index}`}
