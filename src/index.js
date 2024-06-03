@@ -10,6 +10,7 @@ import {
   CurrencyConverterIndex,
   PasswordGeneratorIndex,
   AddCircleIndex,
+  AutoSuggestionIndex,
 } from "./rootIndexs/rootIndex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,7 +21,8 @@ root.render(
     {/* <ProgressionIndex /> */}
     {/* <CurrencyConverterIndex /> */}
     {/* <PasswordGeneratorIndex /> */}
-    <AddCircleIndex />
+    {/* <AddCircleIndex /> */}
+    <AutoSuggestionIndex />
   </React.StrictMode>
 );
 
