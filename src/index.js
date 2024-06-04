@@ -12,6 +12,7 @@ import {
   AddCircleIndex,
   AutoSuggestionIndex,
 } from "./rootIndexs/rootIndex";
+import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,7 +23,8 @@ root.render(
     {/* <CurrencyConverterIndex /> */}
     {/* <PasswordGeneratorIndex /> */}
     {/* <AddCircleIndex /> */}
-    <AutoSuggestionIndex />
+    {/* <AutoSuggestionIndex /> */}
+    <HolyGrailIndex />
   </React.StrictMode>
 );
 
