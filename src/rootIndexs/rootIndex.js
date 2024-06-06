@@ -5,3 +5,4 @@ export { default as CurrencyConverterIndex } from "./CurrencyConverterIndex";
 export { default as PasswordGeneratorIndex } from "./PasswordGeneratorIndex";
 export { default as AddCircleIndex } from "./AddCircleIndex";
 export { default as AutoSuggestionIndex } from "./AutoSuggestionIndex";
+export { default as HolyGrailFlexBoxIndex } from "./HolyGrailFlexBoxIndex";

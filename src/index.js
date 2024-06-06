@@ -11,6 +11,7 @@ import {
   PasswordGeneratorIndex,
   AddCircleIndex,
   AutoSuggestionIndex,
+  HolyGrailFlexBoxIndex,
 } from "./rootIndexs/rootIndex";
 import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
@@ -24,7 +25,8 @@ root.render(
     {/* <PasswordGeneratorIndex /> */}
     {/* <AddCircleIndex /> */}
     {/* <AutoSuggestionIndex /> */}
-    <HolyGrailIndex />
+    {/* <HolyGrailIndex /> */}
+    <HolyGrailFlexBoxIndex />
   </React.StrictMode>
 );
 
