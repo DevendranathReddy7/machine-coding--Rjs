@@ -5,10 +5,7 @@
 
 
 }
-.body__container{
-    display: grid;
-    grid: 1fr / auto 1fr auto;
-}
+
 
 .header{
     grid-column: 1 / 4;
@@ -16,11 +13,7 @@
     background-color: rgb(237, 31, 31);
 }
 
-.footer{
-    grid-column: 1 / 4;
-    padding: 10px;
-    background-color: chocolate;
-}
+
 
 .left__sidebar{
     padding: 10px;
@@ -35,4 +28,19 @@
 .right__sidebar{
     padding: 10px;
     background-color: rgb(96, 110, 227);
+}
+
+.footer{
+    grid-column: 1 / 4;
+    padding: 10px;
+    background-color: chocolate;
+}
+
+@media (max-width:468px)  {
+    .holy_container{
+        grid: repeat(5,1fr) / auto
+    }
+    .header , .footer, .body__sidebar, .left__sidebar, .right__sidebar{
+        grid-column: 1/2;
+    }
 }

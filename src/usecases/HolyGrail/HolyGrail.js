@@ -3,17 +3,12 @@ import "./HolyGrail.css";
 const HolyGrail = (props) => {
   return (
     <div className="holy_container">
-      <div className="header">
-        <header>Header</header>
-      </div>
-      <div className="body__container">
-        <div className="left__sidebar">Left sidebar</div>
-        <div className="body__sidebar">this is main content</div>
-        <div className="right__sidebar">Right sidebar</div>
-      </div>
-      <div className="footer">
-        <footer>Footer</footer>
-      </div>
+      <header className="header">Header</header>
+
+      <div className="left__sidebar">Left sidebar</div>
+      <main className="body__sidebar">this is main content</main>
+      <div className="right__sidebar">Right sidebar</div>
+      <footer className="footer">Footer</footer>
     </div>
   );
 };
