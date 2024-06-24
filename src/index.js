@@ -12,6 +12,7 @@ import {
   AddCircleIndex,
   AutoSuggestionIndex,
   HolyGrailFlexBoxIndex,
+  GridIndex,
 } from "./rootIndexs/rootIndex";
 import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
@@ -26,7 +27,8 @@ root.render(
     {/* <AddCircleIndex /> */}
     {/* <AutoSuggestionIndex /> */}
     {/* <HolyGrailIndex /> */}
-    <HolyGrailFlexBoxIndex />
+    {/* <HolyGrailFlexBoxIndex /> */}
+    <GridIndex />
   </React.StrictMode>
 );
 

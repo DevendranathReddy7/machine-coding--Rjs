@@ -6,3 +6,4 @@ export { default as PasswordGeneratorIndex } from "./PasswordGeneratorIndex";
 export { default as AddCircleIndex } from "./AddCircleIndex";
 export { default as AutoSuggestionIndex } from "./AutoSuggestionIndex";
 export { default as HolyGrailFlexBoxIndex } from "./HolyGrailFlexBoxIndex";
+export { default as GridIndex } from "./GridIndex";
