@@ -7,3 +7,5 @@ export { default as AddCircleIndex } from "./AddCircleIndex";
 export { default as AutoSuggestionIndex } from "./AutoSuggestionIndex";
 export { default as HolyGrailFlexBoxIndex } from "./HolyGrailFlexBoxIndex";
 export { default as AppStoreIndex } from "./AppStoreIndex";
+export { default as AppointmentsIndex } from "./AppointmentsIndex";
+export { default as CommentsIndex } from "./CommentsIndex";

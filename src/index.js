@@ -14,6 +14,8 @@ import {
   HolyGrailFlexBoxIndex,
   GridIndex,
   AppStoreIndex,
+  AppointmentsIndex,
+  CommentsIndex,
 } from "./rootIndexs/rootIndex";
 import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
@@ -30,7 +32,9 @@ root.render(
     {/* <HolyGrailIndex /> */}
     {/* <HolyGrailFlexBoxIndex /> */}
     {/* <GridIndex /> */}
-    <AppStoreIndex />
+    {/* <AppStoreIndex /> */}
+    {/* <AppointmentsIndex /> */}
+    <CommentsIndex />
   </React.StrictMode>
 );
 

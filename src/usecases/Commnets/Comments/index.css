@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.main__container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#addCmnt{
+  width: 15%;
+  height: 40px;
+}
+
+h3 {
+  margin-left: 20px;
+}
+.left__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.action__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 1%;
+}
+.no_0f_cmnts {
+  margin: 0px 3%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cmnt__count {
+  width: 20px;
+  height: 20px;
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+

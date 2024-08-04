@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.main__container {
+  background-color: white;
+  margin: 10%;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+input {
+  height: 40px;
+}
+
+.appointments__container__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starred {
+  height: 30px;
+  width: 100px;
+  align-self: center;
+  background-color: transparent;
+  border: 2px solid violet;
+  border-radius: 5px;
+}
+
+.add {
+  height: 30px;
+  width: 100px;
+  align-self: center;
+  background-color: violet;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  border-style: none;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
