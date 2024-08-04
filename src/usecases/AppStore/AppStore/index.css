@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.search__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search__input {
+  width: 30%;
+  height: 40px;
+}
+
+.search__img {
+  width: 30px;
+  position: absolute;
+  left: 62%;
+}
+
+.tabs__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 10px;
+  align-items: center; /* Center items vertically within their grid cells */
+}

@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: Bree Serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  font-family: Bree Serif;
+}

@@ -13,6 +13,7 @@ import {
   AutoSuggestionIndex,
   HolyGrailFlexBoxIndex,
   GridIndex,
+  AppStoreIndex,
 } from "./rootIndexs/rootIndex";
 import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
@@ -28,7 +29,8 @@ root.render(
     {/* <AutoSuggestionIndex /> */}
     {/* <HolyGrailIndex /> */}
     {/* <HolyGrailFlexBoxIndex /> */}
-    <GridIndex />
+    {/* <GridIndex /> */}
+    <AppStoreIndex />
   </React.StrictMode>
 );
 

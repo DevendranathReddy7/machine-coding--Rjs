@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.app__item__container {
+  background-color: white;
+  border-radius: 3px;
+  margin: 1%;
+  padding: 1% 0.5%;
+}
+
+.li__apps {
+  list-style-type: none;
+  width: 100px;
+  color: black;
+}
+
+.app__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
