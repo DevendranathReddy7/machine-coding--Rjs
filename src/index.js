@@ -16,6 +16,7 @@ import {
   AppStoreIndex,
   AppointmentsIndex,
   CommentsIndex,
+  YourMoneyIndex,
 } from "./rootIndexs/rootIndex";
 import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
@@ -34,7 +35,8 @@ root.render(
     {/* <GridIndex /> */}
     {/* <AppStoreIndex /> */}
     {/* <AppointmentsIndex /> */}
-    <CommentsIndex />
+    {/* <CommentsIndex /> */}
+    <YourMoneyIndex />
   </React.StrictMode>
 );
 

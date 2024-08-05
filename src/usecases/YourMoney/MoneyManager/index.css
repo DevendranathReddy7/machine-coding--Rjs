@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.mny_mngr__name {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.mny_mngr__name p span {
+  color: #0b69ff;
+}
+
+.mny_mngr__form_container {
+  display: flex;
+  margin: 2%;
+}
+.mny_mngr__form,
+.mny_mngr_history {
+  border: 2px solid lavender;
+  border-radius: 3px;
+  padding: 5px 50px;
+  flex: 1;
+}
+
+.mny_mngr_history {
+  margin-left: 5px;
+  flex: 1.5;
+}
+
+.form__div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__div input {
+  width: 70%;
+  height: 40px;
+}
+
+.form__div select {
+  width: 70%;
+  height: 40px;
+}
+
+.add_expense {
+  background-color: #0b69ff;
+  color: white;
+  padding: 5px;
+  width: 90px;
+  border-style: none;
+  margin-top: 10px;
+  border-radius: 3px;
+}

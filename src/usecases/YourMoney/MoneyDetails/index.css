@@ -1,0 +1,26 @@
+.expenseTypes__container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.expense__types {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid whitesmoke;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.expense__types span {
+  margin: 20px 0px 0px 10px;
+}
+.rs {
+  margin-top: 4px;
+}
+
+.expenseImg {
+  width: 40px;
+  align-items: center;
+}

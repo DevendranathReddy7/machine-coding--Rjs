@@ -1,0 +1,27 @@
+.mny_mngr_table {
+  border-collapse: collapse;
+  width: 100%; /* Optional: makes the table width fit its container */
+}
+
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+td{
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.delete_img {
+  width: 20px;
+}
+
+.expenses_delete {
+  background-color: transparent;
+  border: none;
+}
