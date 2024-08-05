@@ -1,0 +1,39 @@
+/* Write your code here. */
+.emoji__main__container {
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+}
+.emoji__li {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 4%;
+}
+
+.emoji__game__status {
+  display: flex;
+  padding: 10px 60px;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin: 10px 20%;
+  background-color: #9796f0;
+  border-radius: 5px;
+  align-content: center;
+  color: white;
+}
+
+.status__text__container {
+  align-self: center;
+}
+
+.playAgain {
+  width: 100%;
+  height: 40px;
+  background-color: #ffce27;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.emoji_status__img {
+  margin-left: 20px;
+}

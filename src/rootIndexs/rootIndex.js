@@ -10,3 +10,4 @@ export { default as AppStoreIndex } from "./AppStoreIndex";
 export { default as AppointmentsIndex } from "./AppointmentsIndex";
 export { default as CommentsIndex } from "./CommentsIndex";
 export { default as YourMoneyIndex } from "./YourMoneyIndex";
+export { default as EmojiGameIndex } from "./EmojiGameIndex";

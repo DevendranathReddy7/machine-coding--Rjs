@@ -1,0 +1,19 @@
+/* Write your code here. */
+.emoji__navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 2%;
+  padding-top: 0.5%;
+}
+
+.emoji__logo {
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_emoji_nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
