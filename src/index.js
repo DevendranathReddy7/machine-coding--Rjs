@@ -11,6 +11,7 @@ import {
   PasswordGeneratorIndex,
   AddCircleIndex,
   AutoSuggestionIndex,
+  HolyGrailIndex,
   HolyGrailFlexBoxIndex,
   GridIndex,
   AppStoreIndex,
@@ -18,8 +19,9 @@ import {
   CommentsIndex,
   YourMoneyIndex,
   EmojiGameIndex,
+  StopWatchIndex,
+  DigitalTimerIndex,
 } from "./rootIndexs/rootIndex";
-import HolyGrailIndex from "./rootIndexs/HolyGrailIndex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -38,7 +40,9 @@ root.render(
     {/* <AppointmentsIndex /> */}
     {/* <CommentsIndex /> */}
     {/* <YourMoneyIndex /> */}
-    <EmojiGameIndex />
+    {/* <EmojiGameIndex /> */}
+    {/* <StopWatchIndex /> */}
+    <DigitalTimerIndex />
   </React.StrictMode>
 );
 

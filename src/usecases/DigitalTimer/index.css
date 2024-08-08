@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.DigitalTimer__container {
+  /* background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png'); 
+   background-position: left;
+  background-size: cover; */
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffffff, #cffcf1);
+}
+
+.DigitalTimer__inner__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn__container__1 {
+  display: flex;
+  gap: 10px;
+}
+.btn__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.digital__icons {
+  background-color: transparent;
+  border-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.digital__icons img {
+  width: 30px;
+}
+
+.count {
+  background-color: #cffcf1;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px 10px;
+}
+
+.counterBtn {
+  background-color: transparent;
+  border-style: none;
+  font-weight: bold;
+}
