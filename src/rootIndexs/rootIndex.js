@@ -14,3 +14,4 @@ export { default as YourMoneyIndex } from "./YourMoneyIndex";
 export { default as EmojiGameIndex } from "./EmojiGameIndex";
 export { default as StopWatchIndex } from "./StopWatchIndex";
 export { default as DigitalTimerIndex } from "./DigitalTimerIndex";
+export { default as FaqsIndex } from "./FaqsIndex";

@@ -21,6 +21,7 @@ import {
   EmojiGameIndex,
   StopWatchIndex,
   DigitalTimerIndex,
+  FaqsIndex,
 } from "./rootIndexs/rootIndex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -42,7 +43,8 @@ root.render(
     {/* <YourMoneyIndex /> */}
     {/* <EmojiGameIndex /> */}
     {/* <StopWatchIndex /> */}
-    <DigitalTimerIndex />
+    {/* <DigitalTimerIndex /> */}
+    {/* <FaqsIndex /> */}
   </React.StrictMode>
 );
 
