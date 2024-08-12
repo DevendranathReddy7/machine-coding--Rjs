@@ -1,0 +1,9 @@
+/* Write your code here. */
+.faq__li {
+  list-style-type: none;
+}
+
+.faqs__ul{
+  display: flex;
+  flex-direction: column;
+}
